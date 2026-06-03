@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+main{
+    border-radius: 10px;
+    background-color: red;
+    padding: 2rem;
+}
+
+main > h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+main > #search-cep form{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+main > #search-cep input{
+    flex: 1;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+main > #search-cep button{
+    background-color: green;
+    color: white;
+    padding: 0 0.4rem ;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#result{
+    max-width: 500px;
+}
+
+#result > .card-pesquisa{
+    display: flex;
+    flex-direction: column;
+}
+
+#result > .card-pesquisa input{
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: white ;
+    border: none;
+    border-radius: 10px;
+    padding: 0.4rem ;
+}
+
