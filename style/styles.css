@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: #dedede;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,12 +17,12 @@ body{
 
 main{
     border-radius: 10px;
-    background-color: red;
-    padding: 2rem;
+    background-color: rgb(114, 96, 96);
+    padding: 1rem;
 }
 
 main > h1{
-    font-size: 2rem;
+    
     margin-bottom: 2rem;
 }
 
@@ -64,10 +64,10 @@ main > #search-cep button{
     height: 30px;
     font-size: 16px;
     font-weight: bold;
-    color: black;
+    color: red;
     background-color: white ;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 0.4rem ;
 }
 

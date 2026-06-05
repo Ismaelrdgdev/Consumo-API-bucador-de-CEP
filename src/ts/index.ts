@@ -37,13 +37,13 @@ if(!informacoes.bairro || !informacoes.logradouro){
 
 result.innerHTML=`
 <div class="card-pesquisa">
-          <label for="localidade">Cidade</label>
+          <label for="localidade">Nome da cidade</label>
           <input type="text" id="localidade" value="${informacoes.localidade}" disabled />
 
-          <label for="logradouro">Logradouro</label>
+          <label for="logradouro">Logradouro do CEP</label>
           <input type="text" id="logradouro" value="${informacoes.logradouro}" disabled />
 
-          <label for="ddd">DDD</label>
+          <label for="ddd">DDD da localização</label>
           <input type="text" id="ddd" value="${informacoes.ddd}" disabled />
 
           <label for="bairro">Bairro</label>
@@ -52,7 +52,7 @@ result.innerHTML=`
           <label for="estado">Estado</label>
           <input type="text" id="estado" value="${informacoes.estado}" disabled />
 
-          <label for="regiao">Região</label>
+          <label for="regiao">Região do Pais</label>
           <input type="text" id="regiao" value="${informacoes.regiao}" disabled />
         </div>
 

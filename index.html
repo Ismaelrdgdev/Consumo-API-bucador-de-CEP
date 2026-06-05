@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
       rel="stylesheet"
@@ -15,7 +15,7 @@
   </head>
   <body>
     <main>
-      <h1>Faça a busca do seu CEP 🌏</h1>
+      <h1 class="text-green-500 text-2xl md:text-3xl">Faça a busca do seu CEP 🌏</h1>
 
       <section id="search-cep">
         <form>
@@ -24,6 +24,7 @@
             type="text"
             id="input-cep"
             placeholder="Exemplo: 000000000"
+            class="bg-white text-black"
           />
           <button id="search-button">Buscar</button>
         </form>
