@@ -2,6 +2,7 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./js",
+    
 
     "module": "ESNext",
     "target": "ES2020",
