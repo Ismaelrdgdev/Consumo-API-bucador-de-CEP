@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100dvh;
     font-family: "Poppins", sans-serif;
     color: black;
 }
@@ -22,7 +22,6 @@ main{
 }
 
 main > h1{
-    
     margin-bottom: 2rem;
 }
 
@@ -52,7 +51,7 @@ main > #search-cep button{
 }
 
 #result{
-    max-width: 500px;
+    max-width: 800px;
 }
 
 #result > .card-pesquisa{

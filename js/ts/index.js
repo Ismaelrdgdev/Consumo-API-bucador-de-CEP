@@ -33,14 +33,14 @@ form?.addEventListener("submit", async (event) => {
           <label for="logradouro">Logradouro do CEP</label>
           <input type="text" id="logradouro" value="${informacoes.logradouro}" disabled />
 
-          <label for="ddd">DDD da localização</label>
-          <input type="text" id="ddd" value="${informacoes.ddd}" disabled />
-
           <label for="bairro">Bairro</label>
           <input type="text" id="bairro" value="${informacoes.bairro}" disabled />
 
           <label for="estado">Estado</label>
           <input type="text" id="estado" value="${informacoes.estado}" disabled />
+
+          <label for="ddd">DDD da localização</label>
+          <input type="text" id="ddd" value="${informacoes.ddd}" disabled />
 
           <label for="regiao">Região do Pais</label>
           <input type="text" id="regiao" value="${informacoes.regiao}" disabled />
